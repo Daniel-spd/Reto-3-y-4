@@ -1,5 +1,7 @@
 body{
     background-color: #34496e;
+    margin: 0;
+    padding: 0;
 }
 
 /* Titulos */
@@ -21,18 +23,30 @@ h3{
     text-align: center;
 }
 
+p{
+    font-weight: 100;
+}
+
+/* Links */
+
+a{
+    height: 10%;
+    width: 96%;
+    background-color: red;
+}
+
 /* Contenedor */
 
 #contenedor{
-    width: 1240px;
-    height: 1600px;
+    width: 80%;
+    height: 1900px;
     background-color: dimgray;
     margin: 0.5em auto;
     padding: 0.5em;
 }
 
 #header{
-    height: 5%;
+    height: 8%;
     background-color: cornflowerblue;
     margin: 1em;
     border-radius: 1em;
@@ -44,7 +58,7 @@ h3{
     background-color: darkcyan;
     margin: 1em;
     border-radius: 1em;
-    padding: 0.3em;
+    padding: 0.5em;
 }
 
 #contenido{
@@ -55,33 +69,46 @@ h3{
 
 #section{
     height: 100%;
-    width: 67%;
-    background-color: darkkhaki;
+    width: 72%;
+    /* background-color: dimgray; */
     margin-left: 0.5em;
     border-radius: 1em;
     float: left;
 }
 
 .articulo{
-    height: 18%;
-    width: 96%;
-    background-color: red;
+    height: 17%;
+    width: 94%;
+    background-color: brown;
     margin: 1em;
     border-radius: 1em;
+    padding: 0.5em;
 }
 
 #aside{
     height: 100%;
-    width: 30%;
-    background-color: aquamarine;
+    width: 25%;
+    background-color: gray;
     margin-right: 0.5em;
     border-radius: 1em;
     float: right;
 }
 
 #footer{
-    height: 10%;
-    background-color: coral;
+    height: 11%;
+    background-color: darkcyan;
     margin: 1em;
     border-radius: 1em;
+    padding: 0.5em;
+}
+
+/* Footer */
+
+#botones{
+    text-align: center;
+}
+
+#correo{
+    margin: 0;
+    float: left;
 }
