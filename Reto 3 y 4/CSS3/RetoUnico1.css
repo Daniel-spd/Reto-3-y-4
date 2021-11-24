@@ -40,7 +40,7 @@ a{
 #contenedor{
     width: 80%;
     height: 1900px;
-    background-color: dimgray;
+    /* background-color: dimgray; */
     margin: 0.5em auto;
     padding: 0.5em;
 }
@@ -64,7 +64,7 @@ a{
 #contenido{
     height: 68%;
     margin: 0.5em;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 #section{
@@ -82,7 +82,7 @@ a{
     background-color: brown;
     margin: 1em;
     border-radius: 1em;
-    padding: 0.5em;
+    padding: 0.6em;
 }
 
 #aside{
@@ -91,6 +91,7 @@ a{
     background-color: gray;
     margin-right: 0.5em;
     border-radius: 1em;
+    padding: 0.4em;
     float: right;
 }
 
